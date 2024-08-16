@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    char name[] = "";
+    
+    printf("Bitte Namen eingeben:");
+    fgets(name, 40, stdin);
+
+    printf("Hallo %s", name);
+
+    return 0;
+}
