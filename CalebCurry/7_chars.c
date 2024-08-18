@@ -2,7 +2,9 @@
 
 int main() {
 
-    char myChar = 'A';
+    char myChar;
+    scanf("%c", &myChar);
+
     printf("%c\n", myChar);
 
     return 0;
