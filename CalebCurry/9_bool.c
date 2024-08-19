@@ -7,8 +7,5 @@ int main() {
 
     printf("ichBinFett: %i\n", ichBinFett);
 
-
-
-
     return 0;
 }
