@@ -1,0 +1,4 @@
+Hallo, Welt!
+Dies ist Zeile 2.
+Zahl: 42
+Diese Zeile wurde angehängt.
