@@ -4,10 +4,10 @@ CFLAGS = -Wall -std=c99 -Wno-missing-braces
 LIBS = -lraylib -lwayland-client -lwayland-cursor -lwayland-egl -lxkbcommon -lGL -lm -lpthread -ldl -lrt
 
 # Name der Ausgabedatei
-TARGET = my_test
+TARGET = a.out
 
 # Quelldateien
-SRC = test.c
+SRC = core_2d_camera.c
 
 $(TARGET): $(SRC)
 	$(CC) $(SRC) -o $(TARGET) $(CFLAGS) $(LIBS)
