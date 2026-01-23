@@ -26,7 +26,7 @@ int main() {
   printf("Summe aller Elemente: %d\n", summe);
 
   // Strings (Char-Arrays)
-  char name[] = "Linux";
+  char *name = "Linux";
   printf("\nName: %s\n", name);
   printf("Länge: %zu\n", sizeof(name)); // Inkl. Null-Terminator
 

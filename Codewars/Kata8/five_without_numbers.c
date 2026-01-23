@@ -11,6 +11,6 @@ int main() {
 
 int unusual_five (void)
 {
-    char name[] = "Blon";
+    char name[] = "five";
 	return sizeof(name);
 }
